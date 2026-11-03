@@ -20,7 +20,7 @@ export default function Footer() {
       <div>
         <h4>Get in touch</h4>
         <a href="mailto:hello@elanjewels.in">hello@dineshjewels.in</a>
-        <a href="tel:+919876543210">+91 98765 43210</a>
+        <a href="tel:+919575045471">+91 9575045471</a>
         <span>Sehore, Madhya Pradesh, India</span>
         </div>
 

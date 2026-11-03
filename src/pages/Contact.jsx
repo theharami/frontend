@@ -22,7 +22,7 @@ export default function Contact() {
           <Phone/>
           <div>
           <small>CALL OR WHATSAPP</small>
-          <b>+91 91313 91789</b>
+          <b>+91 9575045471</b>
           <span>Mon – Sat, 10:30 AM – 8:00 PM</span>
            </div>
       </div>
@@ -42,7 +42,7 @@ export default function Contact() {
         <b>Monday – Saturday</b><span>10:30 AM – 8:00 PM · Sunday by appointment</span>
         </div>
       </div>
-        <a className="contact-whatsapp" href="https://wa.me/919131391789?text=Hello%20Élan%20Jewels%2C%20I%20would%20like%20to%20know%20more." target="_blank" rel="noreferrer">Chat with us on WhatsApp <ArrowUpRight size={17}/></a>
+        <a className="contact-whatsapp" href="https://wa.me/9195755045471?text=Hello%20Élan%20Jewels%2C%20I%20would%20like%20to%20know%20more." target="_blank" rel="noreferrer">Chat with us on WhatsApp <ArrowUpRight size={17}/></a>
       </div>
 
       <div className="map-wrap">
