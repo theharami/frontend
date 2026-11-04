@@ -43,6 +43,8 @@ export default function Footer() {
 
     <div className="footer-bottom">
       <span>© {new Date().getFullYear()} Shree Mati Jewels. All rights reserved.</span>
+      <Link to="/admin">Admin <ArrowUpRight size={13}/>
+      </Link>
       <span>Crafted with care</span>
       </div>
   </footer>;
