@@ -30,7 +30,7 @@ export default function Collection() {
   return(
    <div className="collection-page">
     <section className="collection-banner">
-      <span className="eyebrow">THE DINESH EDIT</span>
+      <span className="eyebrow">THE SHREE MATI EDIT</span>
       <h1>Our <em>collection.</em></h1>
       <p>Considered designs for the moments that matter.</p>
       </section>

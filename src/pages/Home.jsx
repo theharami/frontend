@@ -44,7 +44,7 @@ export default function Home() {
           <b>Quiet luxury, lasting beauty.</b>
           </div>
 
-        <div className="hero-seal"><span>DINESH</span><small>DINESH JEWELS</small><Heart size={16}/></div></div>
+        <div className="hero-seal"><span>SHREE MATI</span><small>SHREE MATI JEWELS</small><Heart size={16}/></div></div>
     </section>
 
     <PriceTicker/>
@@ -81,7 +81,7 @@ export default function Home() {
           <h2>Beauty in every<br/><em>little detail.</em></h2>
           <p>We believe the finest jewellery is more than an accessory. It carries memories, marks milestones, and becomes a part of who you are.</p>
           <Link to="/contact"
-           className="under-link">Discover the Élan experience <ArrowUpRight size={16}/>
+           className="under-link">Discover the Shree mati experience <ArrowUpRight size={16}/>
            </Link>
            </div>
            </section>

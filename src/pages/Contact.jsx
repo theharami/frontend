@@ -13,7 +13,7 @@ export default function Contact() {
       <div className="contact-info">
         <div className="contact-info-item">
           <MapPin/><div><small>VISIT OUR BOUTIQUE</small>
-          <b>Dinesh Jewels, </b>
+          <b>Shree Mati jeweles, </b>
           <span>Sehore, Madhya Pradesh, India</span>
            </div>
       </div>
@@ -31,7 +31,7 @@ export default function Contact() {
           <Mail/>
           <div>
           <small>WRITE TO US</small>
-          <b>hello@dineshjewels.in</b>
+          <b>hello@jewels.in</b>
           <span>We usually reply within one business day.</span>
            </div>
         </div>
@@ -42,7 +42,10 @@ export default function Contact() {
         <b>Monday – Saturday</b><span>10:30 AM – 8:00 PM · Sunday by appointment</span>
         </div>
       </div>
-        <a className="contact-whatsapp" href="https://wa.me/9195755045471?text=Hello%20Élan%20Jewels%2C%20I%20would%20like%20to%20know%20more." target="_blank" rel="noreferrer">Chat with us on WhatsApp <ArrowUpRight size={17}/></a>
+        <a className="contact-whatsapp"
+         href="https://wa.me/9195755045471?text=Hello%20Élan%20Jewels%2C%20I%20would%20like%20to%20know%20more." 
+         target="_blank" 
+         rel="noreferrer">Chat with us on WhatsApp <ArrowUpRight size={17}/></a>
       </div>
 
       <div className="map-wrap">

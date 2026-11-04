@@ -76,7 +76,15 @@ export default function Admin() {
     try { await updatePrices(prices); await loadData(); setMessage("Today's prices updated."); } catch { setMessage("Could not update prices."); }
   };
 
-  if (!token) return <div className="admin-login-page"><form className="admin-login-card" onSubmit={doLogin}><span className="eyebrow">ÉLAN JEWELS</span><h1>Admin <em>login.</em></h1><p>Sign in to manage your store.</p><label>Username<input value={login.username} onChange={e=>setLogin({...login,username:e.target.value})} required/></label><label>Password<input type="password" value={login.password} onChange={e=>setLogin({...login,password:e.target.value})} required/></label>{error && <p className="admin-error">{error}</p>}<button className="admin-primary">Sign in</button><small>Default demo login is in the project README. Change it in backend/.env before going live.</small></form></div>;
+  if (!token) return <div className="admin-login-page">
+    <form className="admin-login-card" onSubmit={doLogin}>
+      <span className="eyebrow">ÉLAN JEWELS</span>
+      <h1>Admin <em>login.</em></h1>
+      <p>Sign in to manage your store.</p>
+      <label>Username<input value={login.username} onChange={e=>setLogin({...login,username:e.target.value})} required/></label>
+      <label>Password<input type="password" value={login.password} onChange={e=>setLogin({...login,password:e.target.value})} required/>
+      </label>{error && <p className="admin-error">{error}</p>}<button className="admin-primary">Sign in</button>
+      </form></div>;
 
   return <div className="admin-page">
     <div className="admin-heading"><div><span className="eyebrow">STORE CONTROL</span><h1>Admin <em>dashboard.</em></h1></div><button className="admin-logout" onClick={logout}><LogOut size={16}/> Logout</button></div>

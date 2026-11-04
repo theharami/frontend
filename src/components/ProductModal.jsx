@@ -16,7 +16,10 @@ export default function ProductModal({ product, onClose }) {
       </div>
       <div className="modal-details"><span className="eyebrow">{product.category} COLLECTION</span><h2>{product.name}</h2><strong className="modal-price">₹{Number(product.price || 0).toLocaleString("en-IN")}</strong><p>{product.description || "A considered design, beautifully finished by our craftspeople."}</p>
         <div className="spec-grid"><div><small>METAL</small><b>{product.metal || "—"}</b></div><div><small>WEIGHT</small><b>{product.weight || "—"} g</b></div><div><small>CATEGORY</small><b>{product.category}</b></div><div><small>PRODUCT CODE</small><b>{product._id?.slice(-6).toUpperCase() || "ELAN01"}</b></div></div>
-        <a className="modal-enquire" href={`https://wa.me/919876543210?text=${encodeURIComponent(`Hello, I am interested in ${product.name}. Please share more details.`)}`} target="_blank" rel="noreferrer">Enquire on WhatsApp ↗</a>
+        <a className="modal-enquire"
+         href={`https://wa.me/919575045471?text=${encodeURIComponent(`Hello, I am interested in ${product.name}. Please share more details.`)}`} 
+        target="_blank" 
+        rel="noreferrer">Enquire on WhatsApp ↗</a>
         <small className="modal-note">Final price may vary based on live metal rates and customisation.</small>
       </div>
     </section>

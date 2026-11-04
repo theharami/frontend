@@ -8,7 +8,7 @@ export default function Header() {
   return <header className="site-header">
     <Link to="/" className="brand">
     <span className="brand-mark"><Gem size={21}/></span>
-    <span>DINESH <small>JEWELS</small></span>
+    <span>SHREE MATI <small>JEWELS</small></span>
     </Link>
 
     <button className="menu-toggle"
