@@ -44,7 +44,7 @@ export default function Home() {
           <b>Quiet luxury, lasting beauty.</b>
           </div>
 
-        <div className="hero-seal"><span>SHREE MATI</span><small>SHREE MATI JEWELS</small><Heart size={16}/></div></div>
+        <div className="hero-seal"><span>SHREEMATI</span><small>SHREE MATI JEWELS</small><Heart size={16}/></div></div>
     </section>
 
     <PriceTicker/>

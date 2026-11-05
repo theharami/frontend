@@ -13,7 +13,7 @@ export default function Contact() {
       <div className="contact-info">
         <div className="contact-info-item">
           <MapPin/><div><small>VISIT OUR BOUTIQUE</small>
-          <b>Shree Mati jeweles, </b>
+          <b>Shree Mati jewels, </b>
           <span>Sehore, Madhya Pradesh, India</span>
            </div>
       </div>
